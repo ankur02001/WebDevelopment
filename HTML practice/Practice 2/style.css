@@ -1,0 +1,551 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+html, #page { padding:0; margin:0;}
+body {  margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
+			
+						
+			/* Header */
+.headerMain { 
+	position:fixed; 
+	width:100%;
+	height:150px; 
+	padding:0px;
+	z-index: 1;
+}
+			
+.header-inner { 
+	height:40px;
+	margin:0; 
+	padding:0px;
+	background:#030b1e;
+	text-align:center;
+	color:#e4ecff;
+	font:bold italic 30px Open Sans;
+}
+			
+.headerid {  
+	height:125px;
+	background:#e4ecff; 
+	width:100%;
+	color:#030b1e; 
+	font:30px Open Sans ; 
+	text-decoration: none;
+	text-align:center;
+}
+			
+.homeH {
+	float:left;
+	margin-left:500px;
+	padding-top:50px;
+	width:70px; 
+	height:40px;
+	text-decoration: none;
+	font:35px Open Sans;
+}
+
+
+
+.homeDecorateor {
+	width:120px; 
+	height:50px;
+	color:black;
+}
+.homeDecorateor:hover {
+	background-color: #000;
+	color:white;
+}
+			
+.ScheduleH {
+	float:left;
+	margin-left:80px; 
+	padding-top:50px;
+	width:170px; 
+	height:50px;
+	color:black;
+	text-decoration: none;
+	font:35px Open Sans;
+}
+.ScheduleHDecorateor:hover{
+	background-color: #000;
+	color:white;
+}		
+.header-logo {
+	float:left;
+	margin-left:20px;
+	padding-top:5px;
+	width:200px; 
+	height:200px; 
+	align:center
+}
+            
+.RosterH {
+	float:left;
+	margin-left:20px; 
+	padding-top:50px;
+	width:120px; 
+	height:50px;
+	color:black;
+	text-decoration: none;
+	font:35px Open Sans;
+}
+.RosterHDecorateor:hover{
+	background-color: #000;
+	color:white;
+}
+.FanZoneH {
+	float:left;
+	margin-left:20px; 
+	padding-top:50px;
+	width:180px; 
+	height:50px;
+	color:black;
+	text-decoration: none;
+	font:35px Open Sans;
+}
+
+.FanZoneHDecorateor:hover{
+	background-color: #000;
+	color:white;
+}
+			/* content Start */
+.conentShift {
+	height:158px;
+}
+	.MainContentBody {
+		padding:0px;
+		margin:0px; 
+		background-image: url("images/big-image.jpg");
+		color:#e4ecff;
+		width:100%;
+		height:850px;
+}
+	
+.ContentDate{
+	padding-left:500px;
+	padding-top:500px; 
+	font-size: 35px;
+	color:bold black;
+	color:#030b1e;
+}
+			
+.DateDecorateor {	
+	width:300px;
+	height:28px; 
+	background-color:white;
+	padding:10px;
+	opacity:0.85;
+	color:black;
+	font-weight:bolder; /* what is this? */
+}	
+				
+.ContentBodyBoxScoreWrapperLeft {
+	float:left;
+	padding-left:500px;
+	padding-top:30px;
+}
+
+.ContentBigWhite {
+	height:60px; 
+	margin-top:20px;
+	color:white;
+	font-weight:bolder;
+	font-size:40px;
+	text-shadow: 2px 2px black;
+	letter-spacing: 2px;
+	transform:scale(1,2); /* W3C */
+	-webkit-transform:scale(1,2); /* Safari and Chrome */
+	-moz-transform:scale(1,2); /* Firefox */
+	-ms-transform:scale(1,2); /* IE 9 */
+	-o-transform:scale(1,2); /* Opera */
+         
+}
+
+.ContentBodyBoxScore { 
+	color:#030b1e;
+	font:bold 35px Open Sans;
+}
+			
+.ContentBodyBoxScoreWrapperRight {
+	float:right;
+}
+			
+.BOXSCORE {
+	padding-top:120px;
+	padding-right:400px; 
+	font-size: 35px;
+	color:bold black;
+	color:#030b1e;
+}
+			
+.boxDecorateor {	
+	width:225px;
+	height:25px; 
+	background-color:white;
+	padding:10px;
+	opacity:0.85;
+	color:black;
+	font-weight:bolder;
+	text-align:center;
+	font-size: 35px;
+}
+			
+.STATISTICS{
+	padding-top:10px; 
+	font-size: 35px;
+	color:bold black;
+	color:#030b1e;
+}
+			
+.STATISTICSDecorateor {	
+	width:225px;
+	height:25px; 
+	background-color:white;
+	padding:10px;
+	opacity:0.85;color:black;
+	font-weight:bolder;
+	text-align:center;
+	font-size: 35px;
+}
+			 /*UpComingGames */
+
+.UpComingGames {
+	margin-top:0px;
+	padding:0px;
+	width:100%;
+	height:500px;
+	background-image: url("images/upcoming-games.jpg");
+}
+			 
+.upcoming {
+	float:left;
+	padding-top:40px;
+	padding-left:500px;
+	color:#e4ecff;
+	font-size:20px; 
+	font-family: open sans ;
+			
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+
+.games {
+	float:left;
+	margin-left:10px;
+	padding-top:40px;
+	color:#e4ecff;
+	font-size:25px;
+	font-family:Open Sans;
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+
+.boxwrapper {
+	padding-top:100px;
+	padding-left:500px;
+}
+			
+.boxUpComingGames {
+	width:232px;
+	height:350px;
+	background-color:#e4ecff;
+	margin-right:25px;
+	float:left;}
+			
+.dateandtimewrapper {
+	color:black;
+	font-size:18px;
+	padding:10px;
+	float:left;
+}
+			
+.dateGames {
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+.timeGames{
+	margin-top:15px;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+
+.circleGames {
+	float:right;
+	padding:10px;
+	padding-top :12px; 
+	width:24px; 
+	height:24px;
+	border: 4px solid black;
+    text-align:center;
+    border-radius:50%;
+    font-size:20px; 
+    margin:15px;
+    color:black;
+    font-weight:bolder;
+}
+			
+.textgamesEnd {
+	font-size:18px;
+	color:black;
+	padding:5px;
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+
+.currentRoster {
+	margin-top:0px;
+	padding:0px;
+	width:100%;
+	height:500px;
+	background-color:#e4ecff;
+}
+
+.currentRosterwrapper{}
+		  
+.CURRENT {
+	float:left;
+	padding-top:40px;
+	padding-left:500px;
+	color:black;font-size:20px; 
+	font-family:Open Sans ;
+			
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+			}
+.ROSTER{
+	float:left;
+	margin-left:10px;
+	padding-top:40px;
+	color:black;
+	font-size:25px;
+	font-family:Open Sans;
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+			
+.boxwrappercurrentRoster {
+	padding-top:100px;
+	padding-left:500px;
+}
+			
+.boxUpComingcurrentRoster {
+	width:232px;
+	height:350px;
+	background-color:black;
+	margin-right:25px;
+	float:left;
+			
+}
+			
+.dateandtimewrappercurrentRoster {
+	color:black;
+	font-size:15px;
+	padding:15px;
+	padding-top:25px;
+	float:left;
+	color:white;
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+			
+.dateGames{}
+			
+.circlecurrentRoster {
+	float:right;
+	padding:10px;
+	padding-top :12px; 
+	width:24px; 
+	height:24px;
+	border: 4px solid white;
+    text-align:center;
+    border-radius:50%;
+    font-size:20px; 
+    margin:15px;
+    color:white;
+    font-weight:bolder;
+  }
+												
+.textcurrentRoster {
+	font-size:20px;
+	color:white;
+	padding:5px; 
+	padding-left:15px;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+
+.textcurrentRosterSecond {
+	font-size:20px;
+	color:white;
+	padding:5px;
+	font-weight:bolder;
+	padding-left :15px;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+			/*FAN ZONE */
+.FANZONE {
+	margin-top:0px;
+	padding:0px;
+	width:100%;
+	height:500px;
+	background-image: url("images/fan-zone-bg.jpg");
+}
+			
+.FAN {
+	float:left;
+	padding-top:40px;
+	padding-left:500px;
+	color:white;font-size:20px; 
+	font-family:Open Sans ;
+			
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+			
+.ZONE{
+	float:left;
+	margin-left:10px;
+	padding-top:40px;
+	color:white;
+	font-size:25px;
+	font-family:Open Sans;
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}
+
+.boxwrapperFANZONE {
+	padding-top:100px;
+	padding-left:500px;
+}
+
+.boxUpComingFanZONE {
+	width:232px;
+	height:350px;
+	background-color:#e4ecff;
+	margin-right:25px;
+	float:left;
+}
+			
+.textFanZONE {
+	color:black;
+	font-size:20px;
+	padding:20px;
+	float:left;color:black;
+}
+.clearImage {
+	height:60px;
+	width:50px;
+	margin-top:180px;
+}
+
+.emailFanZONE {
+	font-size:15px;
+	color:black;
+	margin-top:50px; 
+	padding:20px;
+	bottom:0px;
+	position:relative;
+	font-weight:bolder;
+			transform:scale(1,2); /* W3C */
+			-webkit-transform:scale(1,2); /* Safari and Chrome */
+			-moz-transform:scale(1,2); /* Firefox */
+			-ms-transform:scale(1,2); /* IE 9 */
+			-o-transform:scale(1,2); /* Opera */
+}			
+			
+.footerText {
+	margin-top:0px;
+	padding:0px;
+	width:100%;
+	height:300px;
+	background-color:#e4ecff;
+}
+
+.footerTextBoxesWrapper{
+	padding-top:50px;
+	padding-left:500px;
+}
+
+.footerTextBoxes{
+	width:232px;
+	margin-right:25px;
+	float:left;color:black;
+}
+
+.footerTextHeader {
+	font-size:20px;
+	font-weight: bolder;
+    padding-bottom:10px;
+			transform:scale(1,2); /* W3C */
+				-webkit-transform:scale(1,2); /* Safari and Chrome */
+				-moz-transform:scale(1,2); /* Firefox */
+				-ms-transform:scale(1,2); /* IE 9 */
+				-o-transform:scale(1,2); /* Opera */
+}
+
+.footerTextHeaderSecond {
+	font-size:20px;
+}
+
+.footerEnd {
+	clear: both;
+	padding-top:40px;
+	font-size:18px;
+	color:black; 
+	font-weight:6px;
+	font-stretch:25px;
+	font-weight: bolder;
+	text-align:center;
+				transform:scale(1,2); /* W3C */
+				-webkit-transform:scale(1,2); /* Safari and Chrome */
+				-moz-transform:scale(1,2); /* Firefox */
+				-ms-transform:scale(1,2); /* IE 9 */
+				-o-transform:scale(1,2); /* Opera */
+}
+			
+.clearDiv {
+	clear: both;
+}
+			
+			
